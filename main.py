@@ -9,22 +9,20 @@ from funciones import pausar
 import os 
 
 from menu import menu_principal
-
+ 
 def main():
     mis_clientes = {}
     mis_productos = {}
     pedidos = {}
-
+    
+    opcion = menu_principal()
     while True: 
-        #limpiar_pantalla()
-        print(menu_principal())
-
-        opcion = menu_principal()
-
+           
+                   
+            
         if opcion == "1":
             print("=== REGISTRAR CLIENTE ===")
             registroCLientes()
-            #clientes = registroCLientes(clientes, cid, nombre, correo)
             print("Cliente registrado ✔")
             pausar()
             continue
@@ -32,9 +30,9 @@ def main():
         elif opcion == "2":
             print("=== REGISTRAR PRODUCTO ===")
             registroProductos()
-            
+            continue
 
-            #productos = registroProductos(productos, pid, nombre, precio)
+            
             print("Producto registrado ✔")
             pausar()
             continue
@@ -42,9 +40,6 @@ def main():
         elif opcion == "3":
             print("=== CREAR PEDIDO ===")
             pedido()
-
-        
-            #pedidos = pedido(pedidos, pedido_id, cliente, producto, cantidad, precio)
             print("Pedido creado ✔")
             pausar()
             continue
