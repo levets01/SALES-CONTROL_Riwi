@@ -95,7 +95,7 @@ python main.py
 
 ---
 
-## 🧪 Example Data
+##  Example Data
 
 ```
 Client:
@@ -118,7 +118,7 @@ Total: 100
 
 ---
 
-## 🎯 Project Requirements Covered
+##  Project Requirements Covered
 
 * ✔ Use of functions with parameters
 * ✔ Functions return values
