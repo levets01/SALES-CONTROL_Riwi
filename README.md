@@ -26,13 +26,11 @@ The project is divided into modules:
 
 
 main.py
-clientes.py
-productos.py
-pedidos.py
-reportes.py
+funciones.py
+menu.py
 
 
-### Module Responsibilities
+### Function Responsibilities
 
 * **clientes.py**
   * Register clients
