@@ -1,6 +1,6 @@
 # Order Management System
 
-##  Description
+## Description
 
 This project is a console-based Order Management System developed in Python.
 It allows users to manage clients, products, and orders, as well as generate reports and calculate daily income.
@@ -24,36 +24,31 @@ The system is designed using a **modular structure**, where each functionality i
 
 The project is divided into modules:
 
-```
+
 main.py
 clientes.py
 productos.py
 pedidos.py
 reportes.py
-```
+
 
 ### Module Responsibilities
 
 * **clientes.py**
-
   * Register clients
   * View orders
 
 * **productos.py**
-
   * Register products using tuples
 
 * **pedidos.py**
-
   * Create orders
   * Calculate total income
 
 * **reportes.py**
-
   * Generate system reports
 
 * **main.py**
-
   * Integrates all modules
   * Provides the user interface (menu)
 
@@ -62,29 +57,39 @@ reportes.py
 ## Data Structures Used
 
 * **Dictionaries**
-
   * Used to store clients, products, and orders
 
 * **Tuples**
-
   * Used to store product information (ID, name, price)
 
 ---
 
-##  How to Run
+## System Flowchart
+
+<p align="center">
+  <img src="img/diagrama_de_flujo.png" alt="System Flowchart" width="700">
+</p>
+
+<p align="center">
+  <em>Figure 1: Order Management System Flowchart</em>
+</p>
+
+---
+
+## How to Run
 
 1. Make sure you have Python installed.
 2. Place all files in the same folder.
 3. Open a terminal in that folder.
 4. Run:
 
-```
+
 python main.py
-```
+
 
 ---
 
-##  Example Workflow
+## Example Workflow
 
 1. Register a client
 2. Register a product
@@ -95,9 +100,9 @@ python main.py
 
 ---
 
-##  Example Data
+## Example Data
 
-```
+
 Client:
 ID: 1
 Name: John
@@ -114,11 +119,11 @@ Client: John
 Product: Mouse
 Quantity: 2
 Total: 100
-```
+
 
 ---
 
-##  Project Requirements Covered
+## Project Requirements Covered
 
 * ✔ Use of functions with parameters
 * ✔ Functions return values
@@ -133,9 +138,9 @@ Total: 100
 
 This project was developed collaboratively:
 
-* Couder  1: Client management and order visualization
-* Couder  2: Product management and report generation
-* Couderr 3: Order creation and income calculation
+* Coder 1: Client management and order visualization
+* Coder 2: Product management and report generation
+* Coder 3: Order creation and income calculation
 
 ---
 
